@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px 75px 0 75px;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+header {
+  display: flex;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.nav-wrapper {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 410px;
+}
+
+.nav-text {
+  margin-left: 50px;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.fa-bars {
+  margin-left: 730px;
+  float: right;
+  font-size: 500%;
+  box-sizing: border-box;
+}
+
+.description {
+  margin: 200px 180px;
+  position: absolute;
+}
+
+.desc-text {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+
+.description-button {
+  margin: 0;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.main-wrapper {
+  margin: 100px 0 0 700px;
+}
+
+.main-circle {
+  margin-top: -60px;
+  display: inline-block;
+  width: 950px;
+  height: 950px;
+  border-radius: 50%;
+  background-color: #e6ba38;
+  position: absolute;
+}
+
+.main-man {
+  margin-left: 250px;
+  width: 520px;
+  display: inline-block;
+  position: absolute;
+}
+
+.main-txt {
+  margin: 320px 0 0 750px;
+  font-weight: 700;
+  font-size: 140pt;
+  position: absolute;
+  line-height: 150px;
+}
+
+footer {
+  display: inline-flex;
+  margin-top: 900px;
+}
+
+.footer-icons {
+  position: absolute;
+  font-size: 72px;
+}
+
+.footer-txt {
+  margin-left: 2000px;
+  font-weight: 600;
+  font-size: 36px;
+}
